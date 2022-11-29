@@ -4,7 +4,7 @@ echo "start to run startup ..."
 
 envsubst < /root/config.json.tp > /root/config.json
 # envsubst '\$PORT' < /root/nginx.template.conf > /root/nginx.conf
-
+#
 # get random page from wikipedia
 if [[ -e "/root/html/index.html" ]]; then
     echo "index.html exsit, skip genreate index page"
